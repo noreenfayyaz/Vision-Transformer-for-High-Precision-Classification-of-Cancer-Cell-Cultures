@@ -130,7 +130,7 @@ This project is licensed under the [License](LICENSE).
 If you use this work in your research, please cite:
 
 ```bibtex
-@misc{noreen2024vitcancer,
+@misc{noreen2025vitcancer,
   author       = {Noreen F. Khan and  Changhui Yan*},
   title        = {Vision Transformer for High-Precision Classification of Cancer Cell Cultures},
   year         = {2025},
