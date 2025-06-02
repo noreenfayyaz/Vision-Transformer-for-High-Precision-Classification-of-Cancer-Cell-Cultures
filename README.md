@@ -100,17 +100,21 @@ python vit_k_fold.py
 
 ## 📊 Results Summary
 
-| Model      | Dataset | Accuracy  | Precision | Recall | F1-Score |
-| ---------- | ------- | --------- | --------- | ------ | -------- |
-| CNN        | PC3     | 87.2%     | 0.86      | 0.87   | 0.86     |
-| ViT Simple | PC3     | 92.4%     | 0.92      | 0.92   | 0.92     |
-| ViT K-Fold | PC3     | **94.1%** | 0.94      | 0.94   | 0.94     |
+| Model      | Dataset     | Accuracy  | Precision | Recall | F1-Score |
+|------------|-------------|-----------|-----------|--------|----------|
+| CNN        | MDA-MB-231  | 71.0%     | 0.71      | 0.70   | 0.70     |
+| CNN        | PC3         | 87.2%     | 0.86      | 0.87   | 0.86     |
+| ViT Simple | MDA-MB-231  | 84.0%     | 0.85      | 0.84   | 0.84     |
+| ViT Simple | PC3         | 92.4%     | 0.92      | 0.92   | 0.92     |
+| ViT K-Fold | MDA-MB-231  | **86.1%** | 0.87      | 0.86   | 0.86     |
+| ViT K-Fold | PC3         | **94.1%** | 0.94      | 0.94   | 0.94     |
+
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [License](LICENSE).
 
 ---
 
@@ -127,7 +131,7 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @misc{noreen2024vitcancer,
-  author       = {Noreen F. Khan and John Wilkinson},
+  author       = {Noreen F. Khan and  Changhui Yan*},
   title        = {Vision Transformer for High-Precision Classification of Cancer Cell Cultures},
   year         = {2025},
   publisher    = {GitHub},
