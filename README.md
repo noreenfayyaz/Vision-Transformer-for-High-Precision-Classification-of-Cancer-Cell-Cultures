@@ -15,13 +15,13 @@ Accurate classification of cancer cell morphology is critical for biomedical res
 <p align="center">
   <img src="https://github.com/noreenfayyaz/Vision-Transformer-for-High-Precision-Classification-of-Cancer-Cell-Cultures/raw/master/Fig1.png" width="600"/>
   <br>
-  <b>Figure 1.</b> Overview of the ViT-based classification pipeline.
+  <b>Figure 1.</b> The ViT-based classification pipeline.
 </p>
 
 <p align="center">
   <img src="https://github.com/noreenfayyaz/Vision-Transformer-for-High-Precision-Classification-of-Cancer-Cell-Cultures/raw/master/Fig2.png" width="600"/>
   <br>
-  <b>Figure 2.</b> Training and validation accuracy curves across epochs.
+  <b>Figure 2.</b> Classification Report of MDA-MB-231 (breast cancer) and PC3 (prostate cancer) on Test Dataset.
 </p>
 
 ---
