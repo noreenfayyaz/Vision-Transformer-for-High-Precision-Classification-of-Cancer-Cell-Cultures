@@ -98,16 +98,23 @@ python vit_k_fold.py
 
 ---
 
-## 📊 Results Summary
+## 📊 Final Comparative Evaluation (CNN vs ViT on MDA231 and PC3)
 
-| Model      | Dataset     | Accuracy  | Precision | Recall | F1-Score |
-|------------|-------------|-----------|-----------|--------|----------|
-| CNN        | MDA-MB-231  | 71.0%     | 0.71      | 0.70   | 0.70     |
-| CNN        | PC3         | 87.2%     | 0.86      | 0.87   | 0.86     |
-| ViT Simple | MDA-MB-231  | 84.0%     | 0.85      | 0.84   | 0.84     |
-| ViT Simple | PC3         | 92.4%     | 0.92      | 0.92   | 0.92     |
-| ViT K-Fold | MDA-MB-231  | **86.1%** | 0.87      | 0.86   | 0.86     |
-| ViT K-Fold | PC3         | **94.1%** | 0.94      | 0.94   | 0.94     |
+| Metric        | Dataset  | CNN   | ViT   |
+|---------------|----------|-------|-------|
+| Precision     | MDA231   | 0.71  | 0.85  |
+|               | PC3      | 0.95  | 1.00  |
+| Recall        | MDA231   | 0.70  | 0.84  |
+|               | PC3      | 0.95  | 0.99  |
+| F1-Score      | MDA231   | 0.70  | 0.84  |
+|               | PC3      | 0.95  | 1.00  |
+| Accuracy      | MDA231   | 0.70  | 0.84  |
+|               | PC3      | 0.95  | 0.99  |
+| Macro Avg     | MDA231   | 0.70  | 0.84  |
+|               | PC3      | 0.95  | 1.00  |
+| Weighted Avg  | MDA231   | 0.71  | 0.85  |
+|               | PC3      | 0.95  | 1.00  |
+
 
 
 ---
